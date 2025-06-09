@@ -6,8 +6,7 @@ import datetime
 import asyncio
 
 
-def simple_menu():
-    """Simpler menu using if/elif statements"""
+def menu():
     
     while True:
         print("\n" + "="*50)
@@ -354,4 +353,4 @@ class datetimee:
         print("That's how you can use the datetime library to compare algorithm runtimes!")
 
 
-simple_menu()
+menu()
